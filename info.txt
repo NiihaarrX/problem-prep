@@ -1,1 +1,56 @@
 Data Structures and Algorithms
+
+//Sorting Algorithms
+
+1. Bubble Sort
+   - Time Complexity: O(n²)
+   - Space Complexity: O(1)
+   - Stable: Yes
+   - Description: Repeatedly steps through the list, compares adjacent elements and swaps them if they are in wrong order.
+
+2. Selection Sort
+   - Time Complexity: O(n²)
+   - Space Complexity: O(1)
+   - Stable: No
+   - Description: Divides array into sorted and unsorted regions, repeatedly selects smallest element from unsorted region.
+
+3. Insertion Sort
+   - Time Complexity: O(n²)
+   - Space Complexity: O(1)
+   - Stable: Yes
+   - Description: Builds final sorted array one item at a time, efficient for small data sets.
+
+4. Merge Sort
+   - Time Complexity: O(n log n)
+   - Space Complexity: O(n)
+   - Stable: Yes
+   - Description: Divide and conquer algorithm that recursively breaks down array into smaller subarrays.
+
+5. Quick Sort
+   - Time Complexity: O(n log n) average, O(n²) worst
+   - Space Complexity: O(log n)
+   - Stable: No
+   - Description: Picks a pivot element and partitions array around it.
+
+6. Heap Sort
+   - Time Complexity: O(n log n)
+   - Space Complexity: O(1)
+   - Stable: No
+   - Description: Uses binary heap data structure to sort elements.
+
+7. Counting Sort
+   - Time Complexity: O(n + k) where k is range of input
+   - Space Complexity: O(k)
+   - Stable: Yes
+   - Description: Works by counting occurrences of each element.
+
+8. Radix Sort
+   - Time Complexity: O(d(n + k)) where d is number of digits
+   - Space Complexity: O(n + k)
+   - Stable: Yes
+   - Description: Sorts numbers by processing individual digits.
+
+Key Characteristics:
+- Stable Sort: Maintains relative order of equal elements
+- In-place: Uses constant extra space
+- Adaptive: Performs better on partially sorted data
